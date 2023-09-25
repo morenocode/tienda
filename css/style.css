@@ -529,9 +529,16 @@ h3{
 /**FORMULARIO**/
 
 .formulario{
-    width:60rem;
+    width:100%;
     margin: auto;
 }
+
+@media (min-width: 768px) { 
+    .formulario{
+        width:60rem;
+        margin: auto;
+    }
+ }
 
 .formulario fieldset{
     border:.2rem solid black;
